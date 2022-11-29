@@ -1,1 +1,1 @@
-https://michalponiatowski.github.io/goit-markaup-hw-01/
+https://michalponiatowski.github.io/goit-markaup-hw-02/

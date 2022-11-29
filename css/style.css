@@ -1,0 +1,65 @@
+:root {
+  --brand-blue: #2196f3;
+  --brand-black: #212121;
+  --brand-grey: #757575;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26;
+  color: black;
+  line-height: 1.17;
+}
+
+.blue {
+  color: var(--brand-blue);
+}
+
+.header-nav {
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-black);
+  text-decoration: none;
+}
+
+.header-nav:hover {
+  color: var(--brand-blue);
+}
+
+.header-contact {
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-grey);
+  text-decoration: none;
+}
+.header-contact:hover {
+  color: var(--brand-blue);
+}
+
+.header-contact:active .header-nav:focus {
+  color: red;
+}
+
+.buttons {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  font-size: 16;
+  font-weight: 500;
+  line-height: 1.63;
+}
+.buttons:hover {
+  background-color: var(--brand-blue);
+  color: white;
+}
+
+.buttons:active {
+  background-color: red;
+  color: rgb(224, 21, 21);
+}
+
+.buttons:focus {
+  background-color: greenyellow;
+  color: rgb(19, 224, 156);
+}

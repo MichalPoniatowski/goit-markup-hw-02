@@ -4,62 +4,94 @@
   --brand-grey: #757575;
 }
 
+/* -> classes for logo description*/
 .logo {
   font-family: Raleway;
   font-size: 26;
   color: black;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-
 .blue {
   color: var(--brand-blue);
 }
+.white {
+  color: white;
+}
+/*classes for logo description <-*/
 
 .header-nav {
+  /* class for navigation at top bar next to Logo*/
   font-size: 14;
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-black);
-  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
-.header-nav:hover {
+.header-nav:hover, /* semi classes*/
+.header-nav:focus,
+.address:hover,
+.address:focus {
   color: var(--brand-blue);
 }
 
-.header-contact {
-  font-size: 14;
-  font-weight: 500;
-  line-height: 1.17;
-  color: var(--brand-grey);
+/* ->classes for footer description*/
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.text-decoration {
   text-decoration: none;
 }
-.header-contact:hover {
-  color: var(--brand-blue);
-}
 
-.header-contact:active .header-nav:focus {
-  color: red;
+.color-gradient {
+  color: rgba(255, 255, 255, 0.6);
 }
+/*classes for footer description <- */
 
+/* -> classes for buttons description*/
 .buttons {
-  cursor: pointer;
   background-color: #f5f4fa;
+  color: var(--brand-black);
   font-size: 16;
   font-weight: 500;
   line-height: 1.63;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
 }
-.buttons:hover {
+.buttons:hover,
+.buttons:focus {
   background-color: var(--brand-blue);
   color: white;
+  cursor: pointer;
+}
+/*classes for buttons description <-*/
+
+/* -> classes for foto description*/
+.proj-description {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--brand-black);
 }
 
-.buttons:active {
-  background-color: red;
-  color: rgb(224, 21, 21);
+.proj-type {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--brand-grey);
 }
-
-.buttons:focus {
-  background-color: greenyellow;
-  color: rgb(19, 224, 156);
-}
+/*classes for foto description <-*/

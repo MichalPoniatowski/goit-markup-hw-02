@@ -148,6 +148,7 @@
   line-height: 1.1875;
   letter-spacing: 0.03em;
   text-align: center;
+  display: block;
 }
 
 .team-position {

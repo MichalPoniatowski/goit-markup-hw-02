@@ -1,14 +1,14 @@
 :root {
-  --brand-blue: #2196f3;
-  --brand-black: #212121;
-  --brand-grey: #757575;
+  --brand-blue: rgb(33, 150, 243);
+  --brand-black: rgb(33, 33, 33);
+  --brand-grey: rgb(117, 117, 117);
 }
 
 /* -> classes for logo description*/
 .logo {
   font-family: Raleway;
-  font-size: 26;
-  color: black;
+  font-size: 1.625rem;
+  color: #000000;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -16,13 +16,13 @@
   color: var(--brand-blue);
 }
 .white {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 /*classes for logo description <-*/
 
 .header-nav {
   /* class for navigation at top bar next to Logo*/
-  font-size: 14;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-black);
@@ -38,15 +38,15 @@
 
 /* ->classes for footer description*/
 .footer {
-  background-color: #2f303a;
+  background-color: rgb(47, 48, 58);
 }
 
 .address {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.71;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   letter-spacing: 0.03em;
 }
 
@@ -61,9 +61,9 @@
 
 /* -> classes for buttons description*/
 .buttons {
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
   color: var(--brand-black);
-  font-size: 16;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -73,14 +73,14 @@
 .buttons:hover,
 .buttons:focus {
   background-color: var(--brand-blue);
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 /*classes for buttons description <-*/
 
 /* -> classes for foto description*/
 .proj-description {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
@@ -88,10 +88,74 @@
 }
 
 .proj-type {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--brand-grey);
 }
 /*classes for foto description <-*/
+/*Classes for index.html web - Web Studio*/
+
+/* ->Button "Zamów usługe"*/
+.order-service {
+  background-color: var(--brand-blue);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+}
+.order-service:hover,
+.order-service:focus {
+  background-color: rgb(245, 244, 250);
+  color: var(--brand-black);
+  cursor: pointer;
+}
+/*Button "Zamów usługe" <-*/
+
+.header-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--brand-black);
+  text-align: center;
+}
+/*classes for article lorem....*/
+.article-header {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.article {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+/*classes for article lorem....*/
+
+/*->Classes for team*/
+.team-person {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-position {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/*Classes for team<-*/
